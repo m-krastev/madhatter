@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "madhatter"
-version = "0.0.2"
+version = "0.0.1"
 authors = [
   { name="Matey Krastev", email="matey.krastev@outlook.com" },
 ]
@@ -24,3 +24,6 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/Rinto-kun/madhatter"
 "Bug Tracker" = "https://github.com/Rinto-kun/madhatter/issues"
+
+[tool.setuptools]
+packages = ["madhatter"]
