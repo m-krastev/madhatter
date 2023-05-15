@@ -1,0 +1,11 @@
+gensim==4.3.0
+matplotlib==3.6.2
+nltk==3.7
+numpy==1.23.4
+pandas==1.5.2
+Requests==2.30.0
+scipy==1.9.3
+seaborn==0.12.2
+torch==1.13.1
+tqdm==4.64.1
+transformers==4.27.1

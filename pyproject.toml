@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "madhatter"
+version = "0.0.2"
+authors = [
+  { name="Matey Krastev", email="matey.krastev@outlook.com" },
+]
+description = "A text benchmarking tool for writers and data scientists alike."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy", "matplotlib", "nltk","requests", "pandas", "seaborn", "scikit-learn", "tqdm", "torch", "transformers", "gensim"
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/Rinto-kun/madhatter"
+"Bug Tracker" = "https://github.com/Rinto-kun/madhatter/issues"

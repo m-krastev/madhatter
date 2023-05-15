@@ -1,0 +1,9 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.pylintEnabled": false,
+    "cmake.configureOnOpen": false,
+    "python.linting.pylintArgs": [
+        "--max-line-length=200"
+    ],
+    "python.analysis.stubPath": "./src/madhatter/typings"
+}
